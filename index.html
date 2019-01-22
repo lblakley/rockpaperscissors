@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+</head>
+
+<body>
+    <h1>BASIC ROCK PAPER SCISSORS</h1>
+    <div class="container">
+        <form action="">
+            <h2>Rock Paper Scissors</h2>
+            <div class="btn-group" data-toggle="buttons">
+                <img width="200px" src="http://advisoranalyst.com/glablog/wp-content/uploads/2014/05/thumb_6917_rockpaperscissors.jpg">
+                <br>
+                <label class="btn btn-secondary active">
+                    <input type="radio" name="options" id="rock" autocomplete="off" checked> Rock
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="paper" autocomplete="off"> Paper
+                </label>
+                <label class="btn btn-secondary">
+                    <input type="radio" name="options" id="scissors" autocomplete="off"> Scissors
+                </label>
+            </div>
+            <br><br>
+            <button id="play" class="btn btn-secondary" onclick="displayWinner(event);">Play</button>
+        </form>
+        <h2 id="result">
+
+        </h2>
+
+
+
+
+
+    </div>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <a href="advanced.html">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    Play Advanced Version: Best 2 out of 3
+                </button></a>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+        crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
