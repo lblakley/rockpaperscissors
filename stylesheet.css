@@ -57,7 +57,10 @@ h2 {
     width: 120px;
 }
 #result {
-    margin: 20px;
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
     text-align: center;
     text-transform: uppercase;
     color:#f2f;
