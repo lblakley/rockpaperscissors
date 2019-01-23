@@ -39,7 +39,7 @@ function checkForWin(computer, userplay) {
 
 function displayWinner(event) {
     event.preventDefault()
-    if (games === 3){
+    if (games >= 3){
         var r = confirm("Would you like to play again?")
         if (r){
             userwins = 0
@@ -47,6 +47,8 @@ function displayWinner(event) {
             games = 0
             $("#result").html("")
             $("#scoreboard").html("")
+            return null
+        } else {
             return null
         }
     }
